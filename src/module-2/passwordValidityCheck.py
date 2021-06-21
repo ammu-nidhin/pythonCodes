@@ -1,4 +1,5 @@
 import re
+
 pswd=input("Enter the password \n")
 if len(pswd)>=6 and len(pswd)<=12:
     if (re.search("[a-z]",pswd)):
@@ -16,3 +17,6 @@ if len(pswd)>=6 and len(pswd)<=12:
         print("Atleast one alphabet required")
 else:
     print("password should have a minimum length  of 6 characters and a maximum length of 12 characters")
+
+
+
